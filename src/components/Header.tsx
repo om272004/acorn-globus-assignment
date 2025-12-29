@@ -12,7 +12,7 @@ export function Header() {
         <div className="flex justify-between w-full items-center">
             <div className="flex ml-20 p-2 pl-4 w-3/8 bg-white rounded-full items-center text-sm text-[#969696] font-semibold">
                 <Search size={18} />
-                <input type="text" placeholder="Try searching &quot;insights&quot;" className="pl-4" />
+                <input type="text" placeholder="Try searching &quot;insights&quot;" className="pl-4 w-full h-full focus:outline-none" />
             </div>
 
             <div className="flex pr-4 gap-x-4">
